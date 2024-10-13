@@ -1,0 +1,38 @@
+{
+  "menu": {
+    "main": {
+      "message": "Добро пожаловать, {name}. Мой баланс, нажмите 1. Специальные предложения, нажмите 2.",
+      "options": {
+        "1": "balance",
+        "2": "special_offers"
+      }
+    },
+    "balance": {
+      "threshold": 100,
+      "condition": "less_than",
+      "message_low_balance": "У Вас на счету меньше {threshold} тенге. Рекомендуем пополнить баланс.",
+      "message_balance": "Ваш баланс: {balance} тенге."
+    },
+    "internet_traffic": {
+      "message": "Ваш интернет трафик: {traffic_gb} ГБ {traffic_mb} МБ."
+    },
+    "special_offers": {
+      "message": "Безлимитный интернет, нажмите 1. Скидка 50%, нажмите 2.",
+      "options": {
+        "1": "unlimited_internet",
+        "2": "discount_50"
+      }
+    },
+    "unlimited_internet": {
+      "message": "Успейте подключить до 1 июня и получите безлимитный интернет."
+    },
+    "discount_50": {
+      "message": "Получите скидку 50% на Абонентскую плату на 3 месяца."
+    }
+  },
+  "controls": {
+    "back": "9",
+    "main_menu": "*",
+    "repeat": "#"
+  }
+}
